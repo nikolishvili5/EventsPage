@@ -1,0 +1,26 @@
+.box{
+    height: 30px;
+    width: 350px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 500;
+}
+
+.search{
+    color: #761CBC;
+}
+.searchIcon{
+    margin-right: 1rem;
+}

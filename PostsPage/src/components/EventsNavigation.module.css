@@ -1,0 +1,19 @@
+.header{
+    margin: 0 auto;
+    width: 16rem;
+    margin-top: 4rem;
+    background-color: white;
+}
+
+
+.list{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.item{
+    text-decoration: none;
+}

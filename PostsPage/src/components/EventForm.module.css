@@ -1,0 +1,61 @@
+.container{
+  width: 100%;
+  padding: 2rem;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.form{
+  max-width: 40rem;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.form label,
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+}
+
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position:relative;
+}
+
+.form label{
+  margin-bottom: 5px;
+  font-size: 16px ;
+}
+.form input,
+.form textarea{
+  padding: 0.1rem;
+  border-radius: 4px;
+}
+
+
+.container .title::before{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: #9b59b6;
+  left: 0;
+  bottom: 0;
+}
+.actions{
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.actions button{
+  padding: 0.25rem 1rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ac467e, #9b59b6 );
+}
